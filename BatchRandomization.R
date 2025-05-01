@@ -1,6 +1,6 @@
 rm(list=ls())
 library("experDesign")
-my_data <- read.csv("Batchexcel4.csv")
+my_data <- read.csv("File_name.csv") #Input file of interest in scv format
 head(my_data)
 check_data(my_data)
 set.seed(26)
